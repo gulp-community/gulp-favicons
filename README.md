@@ -1,7 +1,7 @@
 # gulp-favicons
 
 [![npm version](https://badge.fury.io/js/gulp-favicons.svg)](https://www.npmjs.com/package/gulp-favicons)
-[![Build Status](https://secure.travis-ci.org/rejas/gulp-favicons.png?branch=master)](https://travis-ci.org/rejas/gulp-favicons)
+[![Build Status](https://secure.travis-ci.org/rejas/gulp-favicons.png?branch=master)](https://travis-ci.org/rejas/gulp-favicons) [![Greenkeeper badge](https://badges.greenkeeper.io/rejas/gulp-favicons.svg)](https://greenkeeper.io/)
 
 gulp-favicons is a [gulp](https://github.com/gulpjs/gulp) plugin for  [Favicons](https://github.com/haydenbleasel/favicons).
 
