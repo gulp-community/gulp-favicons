@@ -28,7 +28,6 @@
     "favicons": "^5.4.1"
   },
   "devDependencies": {
-    "babel-preset-env": "^1.7.0",
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.2"
   }
 }
