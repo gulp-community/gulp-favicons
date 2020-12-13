@@ -18,6 +18,9 @@
     "gulp",
     "gulpplugin"
   ],
+  "engines": {
+    "node": ">=10.13.0"
+  },
   "author": "Hayden Bleasel <haydenbleasel@gmail.com>",
   "license": "ISC",
   "bugs": {
