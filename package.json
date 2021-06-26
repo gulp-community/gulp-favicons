@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/rejas/gulp-favicons",
   "dependencies": {
-    "favicons": "^6.2.0"
+    "favicons": "^6.2.2"
   },
   "devDependencies": {
     "gulp": "^4.0.2"
