@@ -1,10 +1,22 @@
-const favicons = require('favicons');
+import File from 'vinyl';
+import { Transform } from 'stream';
+import { stream } from 'favicons';
 
-(() => {
+class Vinylify extends Transform {
+    constructor () {
+        super({ objectMode: true });
+    }
 
-    'use strict';
+    _transform ({ path, contents }, _enc, cb) {
+        this.push(new File({
+            path,
+            contents
+        }));
 
-    module.exports = (params) => favicons.stream(params);
-    module.exports.config = favicons.config;
+        cb();
+    }
+}
 
-})();
+export { config } from 'favicons';
+export default (options, handleHTML) =>
+    stream(options, handleHTML).pipe(new Vinylify());
