@@ -1,9 +1,9 @@
 # gulp-favicons
 
 [![npm version](https://badge.fury.io/js/gulp-favicons.svg)](https://www.npmjs.com/package/gulp-favicons)
-[![Automated tests](https://github.com/rejas/gulp-favicons/actions/workflows/run-tests.yml/badge.svg)](https://github.com/rejas/gulp-favicons/actions/workflows/run-tests.yml)
+[![Automated tests](https://github.com/gulp-community/gulp-favicons/actions/workflows/run-tests.yml/badge.svg)](https://github.com/gulp-community/gulp-favicons/actions/workflows/run-tests.yml)
 
-gulp-favicons is a [gulp](https://github.com/gulpjs/gulp) plugin for [Favicons](https://github.com/haydenbleasel/favicons).
+gulp-favicons is a [gulp](https://github.com/gulpjs/gulp) plugin for [Favicons](https://github.com/itgalaxy/favicons).
 
 ## Usage
 ```javascript
