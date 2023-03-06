@@ -1,48 +1,12 @@
 {
-  "ecmaFeatures": {
-    "arrowFunctions": true,
-    "binaryLiterals": true,
-    "blockBindings": true,
-    "classes": true,
-    "defaultParams": true,
-    "forOf": true,
-    "generators": true,
-    "objectLiteralComputedProperties": true,
-    "objectLiteralDuplicateProperties": true,
-    "objectLiteralShorthandMethods": true,
-    "objectLiteralShorthandProperties": true,
-    "octalLiterals": true,
-    "regexUFlag": true,
-    "regexYFlag": true,
-    "restParams": true,
-    "spread": true,
-    "superInFunctions": true,
-    "templateStrings": true,
-    "unicodeCodePointEscapes": true,
-    "globalReturn": true,
-    "jsx": false,
-    "experimentalObjectRestSpread": false
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
   },
 
   "env": {
-    "browser": false,
-    "node": true,
-    "amd": false,
-    "mocha": false,
-    "jasmine": false,
-    "phantomjs": false,
-    "jquery": false,
-    "prototypejs": false,
-    "shelljs": false,
+    "node": true
   },
-
-  "globals": {
-
-  },
-
-  "plugins": [
-
-  ],
 
   "rules": {
     "comma-dangle": [2, "never"],
@@ -89,7 +53,6 @@
     "no-case-declarations": 2,
     "no-div-regex": 2,
     "no-else-return": 2,
-    "no-empty-label": 2,
     "no-empty-pattern": 2,
     "no-eq-null": 2,
     "no-eval": 2,
@@ -211,13 +174,11 @@
     "semi-spacing": [2, { "before": false, "after": true }],
     "semi": [2, "always"],
     "sort-vars": 0,
-    "space-after-keywords": 2,
     "space-before-blocks": [2, "always"],
     "space-before-function-paren": [2, "always"],
-    "space-before-keywords": [2, "always"],
     "space-in-parens": [2, "never"],
     "space-infix-ops": [2, { "int32Hint": false }],
-    "space-return-throw-case": 2,
+    "keyword-spacing": 2,
     "space-unary-ops": [1, { "words": true, "nonwords": false }],
     "spaced-comment": [2, "always"],
     "wrap-regex": 2,
@@ -227,7 +188,7 @@
     "arrow-spacing": [2,  { "before": true, "after": true }],
     "constructor-super": 2,
     "generator-star-spacing": [2, { "before": true, "after": false }],
-    "no-arrow-condition": 2,
+    "no-confusing-arrow": 2,
     "no-class-assign": 2,
     "no-const-assign": 2,
     "no-dupe-class-members": 2,

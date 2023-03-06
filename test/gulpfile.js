@@ -1,12 +1,9 @@
-const gulp = require('gulp'),
-    favicons = require('../');
+import gulp from 'gulp';
+import favicons from 'gulp-favicons';
 
-(() => {
-
-    'use strict';
-
-    gulp.task('default', () =>
-        gulp.src('logo.png').pipe(favicons({
+export default () =>
+    gulp.src('logo.png')
+        .pipe(favicons({
             appName: 'Favicons 4.0',
             appDescription: 'Testing suite for Favicons',
             developerName: 'Hayden Bleasel',
@@ -24,6 +21,5 @@ const gulp = require('gulp'),
             },
             html: 'index.html',
             replace: true
-        })).pipe(gulp.dest('stream/')));
-
-})();
+        }))
+        .pipe(gulp.dest('stream/'));

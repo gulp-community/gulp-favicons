@@ -1,13 +1,14 @@
 # gulp-favicons
 
 [![npm version](https://badge.fury.io/js/gulp-favicons.svg)](https://www.npmjs.com/package/gulp-favicons)
-[![Automated tests](https://github.com/rejas/gulp-favicons/actions/workflows/run-tests.yml/badge.svg)](https://github.com/rejas/gulp-favicons/actions/workflows/run-tests.yml)
+[![Automated tests](https://github.com/gulp-community/gulp-favicons/actions/workflows/run-tests.yml/badge.svg)](https://github.com/gulp-community/gulp-favicons/actions/workflows/run-tests.yml)
 
-gulp-favicons is a [gulp](https://github.com/gulpjs/gulp) plugin for [Favicons](https://github.com/haydenbleasel/favicons).
+gulp-favicons is a [gulp](https://github.com/gulpjs/gulp) plugin for [Favicons](https://github.com/itgalaxy/favicons).
 
 ## Usage
 ```javascript
-var favicons = require('gulp-favicons');
+import gulp from 'gulp';
+import favicons from 'gulp-favicons';
 
 gulp
   .src('./favicon.png')
@@ -26,10 +27,8 @@ gulp
       scope: '/',
       start_url: '/?homescreen=1',
       version: 1.0,
-      logging: false,
       html: 'index.html',
       pipeHTML: true,
-      replace: true,
     })
   )
   .pipe(gulp.dest('./dest'));
