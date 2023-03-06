@@ -7,7 +7,8 @@ gulp-favicons is a [gulp](https://github.com/gulpjs/gulp) plugin for [Favicons](
 
 ## Usage
 ```javascript
-var favicons = require('gulp-favicons');
+import gulp from 'gulp';
+import favicons from 'gulp-favicons';
 
 gulp
   .src('./favicon.png')
@@ -26,10 +27,8 @@ gulp
       scope: '/',
       start_url: '/?homescreen=1',
       version: 1.0,
-      logging: false,
       html: 'index.html',
       pipeHTML: true,
-      replace: true,
     })
   )
   .pipe(gulp.dest('./dest'));
