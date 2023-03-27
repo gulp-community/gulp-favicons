@@ -16,6 +16,7 @@ export default () =>
             version: '1.0',
             logging: true,
             online: false,
+            pipeHTML: true,
             icons: {
                 coast: false
             },

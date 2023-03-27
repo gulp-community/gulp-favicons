@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "favicons": "^7.1.0",
+    "multipipe": "^4.0.0",
     "vinyl": "^3.0.0"
   }
 }
