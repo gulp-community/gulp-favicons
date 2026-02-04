@@ -35,8 +35,8 @@
     "gulp": "^4.0.2"
   },
   "dependencies": {
-    "favicons": "^7.1.4",
+    "favicons": "^7.2.0",
     "multipipe": "^4.0.0",
-    "vinyl": "^3.0.0"
+    "vinyl": "^3.0.1"
   }
 }
