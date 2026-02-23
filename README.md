@@ -11,7 +11,7 @@ import gulp from 'gulp';
 import favicons from 'gulp-favicons';
 
 gulp
-  .src('./favicon.png')
+  .src('./favicon.png', {encoding: false})
   .pipe(
     favicons({
       appName: 'My App',

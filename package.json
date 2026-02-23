@@ -23,7 +23,7 @@
     "gulpplugin"
   ],
   "engines": {
-    "node": ">=16.14.0"
+    "node": ">=18"
   },
   "author": "Hayden Bleasel <haydenbleasel@gmail.com>",
   "license": "ISC",
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/gulp-community/gulp-favicons",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^5.0.1"
   },
   "dependencies": {
     "favicons": "^7.2.0",

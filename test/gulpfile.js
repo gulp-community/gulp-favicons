@@ -2,7 +2,7 @@ import gulp from 'gulp';
 import favicons from 'gulp-favicons';
 
 export default () =>
-    gulp.src('logo.png')
+    gulp.src('logo.png', {encoding: false})
         .pipe(favicons({
             appName: 'Favicons 4.0',
             appDescription: 'Testing suite for Favicons',
